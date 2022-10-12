@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="likes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&family=Playfair+Display:wght@600&family=Raleway&family=Roboto&family=Urbanist&display=swap" rel="stylesheet"> 
+    <title>Likes</title>
+<body>
+
+<!--BARRA DE NAVEGACION-->
+
+    <header>
+        <h1>Redes</h1>
+    </header>
+        <h2><span>Inicio</span></h2>
+
+<!--LADO IZQUIERDO-->
+    <div class="container">
+        <div class="columna">
+            <img src="user.png" alt="user">
+            <a href="#"> Add Avatar </a>
+            <h2>Andrea Pérez Lolas</h2>
+        </div>
+
+<!--LADO DERECHO-->
+        <section class="container2">
+            <div class="rectangulo">
+                <div class="fila1">
+                    <h2>Fanny</h2>
+                    <h3><span id="count1"> 9 </span> like(s)</h3>
+                    <button class="megusta" onclick="add1('#count1')"> Like </button>
+                </div>
+                <div class="fila2">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="rectangulo">
+                <div class="fila1">
+                    <h2>Leonardo</h2>
+                    <h3><span id="count2"> 12 </span> like(s)</h3>
+                    <button class="megusta" onclick="add1('#count2')"> Like </button>
+                </div>
+                <div class="fila2">
+                    <p>Just finished my <a href="#"> next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div class="rectangulo">
+                <div class="fila1">
+                    <h2>Alejandro</h2>
+                    <h3><span id="count3"> 9 </span> like(s)</h3>
+                    <button class="megusta" onclick="add1('#count3')"> Like </button>
+                </div>
+                <div class="fila2">
+                    <p>I can't stop listening to the <a href="#"> new album.</a> Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="likes.js"></script>
+</body>
+</html>
